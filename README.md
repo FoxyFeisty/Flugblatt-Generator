@@ -12,9 +12,9 @@ Creating simple lamp post flyers with PHP and FPDF.
 
 <h2>What could be improved</h2>
 <ul>
-  <li>Including individual fonts.</li>
-  <li>Improving the style.</li>
-  <li>Option to send the pdf via e-mail.</li>
+  <li>Including individual fonts</li>
+  <li>Improving the style</li>
+  <li>Option to send the pdf via e-mail</li>
 </ul>
 
 
