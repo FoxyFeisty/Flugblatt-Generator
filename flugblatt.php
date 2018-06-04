@@ -99,7 +99,7 @@ if (isset($_POST["btnClick"])) {
 			<form enctype="multipart/form-data" action="<?php echo $_SERVER['SCRIPT_NAME'] ?>" method="post">	
 				<div class="formDiv">
 					<label for="title">Titel:* </label>
-						<input type="text" id="title" name="title" value="<?php echo $title; ?>" maxlength="30">
+					<input type="text" id="title" name="title" value="<?php echo $title; ?>" maxlength="30">
 				</div>
 				<div class="formDiv">
 				<label for="bild">Bild: </label>
@@ -108,17 +108,17 @@ if (isset($_POST["btnClick"])) {
 				</div> 
 				<div class="formDiv">
 				<p>Beschreibe dein Anliegen (max. 500 Zeichen):* </p>
-						<textarea id="description" name="description" rows="10" cols="30"><?php echo $text; ?></textarea>
+					<textarea id="description" name="description" rows="10" cols="30"><?php echo $text; ?></textarea>
 				</div>
 				<p>Deine Kontaktdaten für das Flugblatt:* </p>
 				<div class="formDiv">
 					<label for="contact">E-Mail: </label>
-						<input type="mail" id="mail" name="mail" value="<?php echo $mail; ?>">	
+					<input type="mail" id="mail" name="mail" value="<?php echo $mail; ?>">	
 				</div>
 				<div class="formDiv">UND/ODER</div>
 				<div class="formDiv">
 					<label for="tel">Tel.: </label>
-						<input type="number" id="tel" name="tel" value="<?php echo $tel; ?>">
+					<input type="number" id="tel" name="tel" value="<?php echo $tel; ?>">
 				</div>
 				<div class="formDiv">
 					<input type="submit" value="Fertig!" name="btnClick"" class="btn">
