@@ -1,0 +1,73 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	background-image: url("images/pexels-photo-1111368.jpeg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: Helvetica;
+	color: white;
+	padding: 1em;
+}
+h1 {
+	margin-top: 0;
+	margin-bottom: 0;
+	font-size: 4em;
+	font-family: 'Gloria Hallelujah', cursive;
+	color: black;
+}
+h2 {
+	font-family: 'Gloria Hallelujah', cursive;
+	margin-top: 0;
+}
+.intro > span {
+	font-family: 'Gloria Hallelujah', cursive;
+	font-size: 1.8em;
+	margin-top: 0;
+}
+.intro {
+	max-width: 800px;
+}
+#generator {
+	margin-top: 2em;
+	max-width: 500px;
+	color: black;
+	background-color: rgba(222,222,222,0.8);
+	padding: 1em;
+}
+.formDiv {
+	margin-bottom: 1em;
+}
+label {
+	width: 25%;
+	display: inline-block;
+}
+input {
+	width: 60%;
+	padding: 0.25em;
+}
+input:focus {
+	outline-color: black;
+}
+textarea {
+	width: 300px;
+}
+textarea:focus {
+	outline-color: black;
+}
+.btn {
+	font-family: 'Gloria Hallelujah', cursive;
+	width: 100px;
+	font-size: 1.25em;
+	padding: 0.25em;
+	border-radius: 5px;
+	color: #ff3399;
+	background-color: black;
+	border: 1px solid #ff3399;
+}
+.btn:hover {
+	color: white;
+	background-color: #ff3399;
+	border: 1px solid white;
+}
+	
