@@ -12,7 +12,6 @@ $tel = isset($_POST["tel"]) ? $_POST["tel"] : null;
 $mailTo = isset($_POST["mailTo"]) ? $_POST["mailTo"] : null;
 
 if (isset($_POST["btnClick"])) {
-
 	// Fehlermeldungen für Pflichtfelder
 	if (!$title) {
 		$meldung[] = "Bitte gib einen Titel ein.";
@@ -74,8 +73,6 @@ if (isset($_POST["btnClick"])) {
 
 ?>
 
-
-
 <!DOCTYPE html>
 <html>
 	<head>
@@ -99,9 +96,7 @@ if (isset($_POST["btnClick"])) {
 				}
 			?>
 			</div>
-			<form enctype="multipart/form-data" action="<?php echo $_SERVER['SCRIPT_NAME'] ?>" method="post">
-				
-				
+			<form enctype="multipart/form-data" action="<?php echo $_SERVER['SCRIPT_NAME'] ?>" method="post">	
 				<div class="formDiv">
 					<label for="title">Titel:* </label>
 						<input type="text" id="title" name="title" value="<?php echo $title; ?>" maxlength="30">
@@ -125,11 +120,6 @@ if (isset($_POST["btnClick"])) {
 					<label for="tel">Tel.: </label>
 						<input type="number" id="tel" name="tel" value="<?php echo $tel; ?>">
 				</div>
-				<!-- <p>An diese E-Mail-Adresse soll das Flugblatt geschickt werden: </p>
-				<div class="formDiv">
-					<label for="mail">E-Mail: </label>
-						<input type="mail" id="mailTo" name="mailTo" value="<?php echo $mailTo; ?>"">
-				</div> -->
 				<div class="formDiv">
 					<input type="submit" value="Fertig!" name="btnClick"" class="btn">
 				</div>
