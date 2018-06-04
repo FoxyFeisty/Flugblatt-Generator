@@ -1,5 +1,7 @@
 # Flugblatt-Generator
 Creating lamp post flyers on the fly with PHP and FPDF.
 
-The user is allowed to fill out a form with title, description, image as well as contact details.
 
+<h2>Acknowledgments</h2>
+Basis code for centering image from github user benshimmin
+https://gist.github.com/benshimmin/4088493
