@@ -4,10 +4,8 @@ session_start();
 
 require("fpdf181/fpdf.php");
 
-// define('FPDF_FONTPATH', 'resources/php/fpdf/font/'); 
-
 class PDF extends FPDF {
-	// TITEL Formatierung
+// TITEL Formatierung
 	function Header() {
 		global $title;
 		$this->SetFont("Helvetica", 'B', 40);
@@ -58,6 +56,7 @@ $title = $_SESSION["title"];
 if (isset($_SESSION["bild"])) {
 	$image = $_SESSION["bild"];
 } else {
+	// gespeichertes Standardbild
 	$image = "standard_image.jpg";
 }
 // Beschreibung
