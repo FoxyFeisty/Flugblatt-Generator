@@ -1,4 +1,4 @@
-# Flugblatt-Generator
+# pdf-creator
 Creating simple lamp post flyers with PHP and FPDF.
 
 
